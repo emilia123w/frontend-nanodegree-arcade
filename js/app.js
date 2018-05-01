@@ -71,7 +71,7 @@ Player.prototype.handleInput = function(key){
 
 if(this.y<0) {
       player.x=202;
-      player.y=405
+      player.y=405;
       win.append('<img class="price" src="images/Gem Blue.png">');
     } //player goes back to the beggining if wins
 
